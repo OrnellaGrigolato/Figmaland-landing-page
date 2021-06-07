@@ -20,7 +20,7 @@ header {
     color: #fff;
 }
 
-.header-btn {
+.link-btn {
     margin: 0 auto;
     text-decoration: none;
     color: #fff;
@@ -32,7 +32,8 @@ header {
     text-align: center;
 }
 
-header div.btn {
+header div.btn,
+.section2 .btn {
     justify-content: center;
     align-items: center;
     border-radius: 35px;
@@ -61,4 +62,72 @@ header p {
 nav {
     display: flex;
     justify-content: space-between;
+}
+
+.features,
+.section2 {
+    text-align: center;
+    margin-top: 5.5rem;
+}
+
+.features h2,
+.features p,
+.section2 h2,
+.section2 p {
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.features p,
+.section2 p {
+    font-size: 28px;
+    line-height: 40px;
+    color: #374754;
+}
+
+.features video {
+    filter: drop-shadow(0px 2.6705px 20.6964px rgba(0, 0, 0, 0.15));
+    border-radius: 14.6877px;
+    margin: auto;
+}
+
+.logosection {
+    width: 70%;
+    margin: 5rem auto 0;
+}
+
+.logosection div {
+    margin-top: 7.5rem;
+}
+
+.logosection div:first-child {
+    margin-top: 0;
+}
+
+.logosection h3 {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.logosection p {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+}
+
+.section2 img {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.section2 h2 {
+    color: #252B42;
 }
