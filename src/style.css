@@ -7,6 +7,14 @@ body {
     margin: auto;
 }
 
+h5 {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin: 0;
+}
+
 header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header-bg.jpg);
     background-repeat: no-repeat;
@@ -33,7 +41,8 @@ header {
 }
 
 header div.btn,
-.section2 .btn {
+.section2 .btn,
+.section4 .btn {
     justify-content: center;
     align-items: center;
     border-radius: 35px;
@@ -65,24 +74,31 @@ nav {
 }
 
 .features,
-.section2 {
+.section2,
+.section3,
+.section4 {
     text-align: center;
     margin-top: 5.5rem;
 }
 
-.features h2,
+h2,
 .features p,
-.section2 h2,
-.section2 p {
+.section2 p,
+.section3 p {
     line-height: 55px;
     letter-spacing: 0.2px;
     color: #252B42;
     font-size: 3rem;
     font-weight: 300;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-bottom: 2rem;
 }
 
 .features p,
-.section2 p {
+.section2 p,
+.section3 p,
+.section4 p {
     font-size: 28px;
     line-height: 40px;
     color: #374754;
@@ -130,4 +146,54 @@ nav {
 
 .section2 h2 {
     color: #252B42;
+}
+
+.section3 img {
+    width: 100%;
+}
+
+.section3 p:last-of-type {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #374754;
+    margin-top: .7rem;
+}
+
+form {
+    width: 100%;
+}
+
+.section3 input:first-of-type {
+    padding: 19px 35px;
+    width: 80%;
+    background: #F4F4F4;
+    border: 1px solid #E8E8E8;
+    border-radius: 39px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section3 input:last-of-type {
+    border-radius: 35px;
+    width: 80%;
+    height: 54px;
+    background: #2091F9;
+    margin-top: .5rem;
+    color: #fff;
+    border: none;
+}
+
+.section4 img {
+    margin-bottom: 3.5rem;
+    width: 80%;
+    height: 8.5rem;
+}
+
+.section4 img:first-of-type {
+    margin-top: 2rem;
+    margin-bottom: 4.5rem;
+}
+
+.section4 .btn {
+    margin-top: 0;
 }
