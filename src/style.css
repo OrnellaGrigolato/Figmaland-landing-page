@@ -147,9 +147,6 @@ nav {
    width: 46px;
    height: 46px;
 }
-.logosection div:first-child {
-    margin-top: 0;
-}
 
 .logosection h3 {
     font-size: 20px;
@@ -188,6 +185,7 @@ nav {
     
   }
 
+
 /* Section 2: "Fastest way to organize"*/
 
 .section2 img {
@@ -216,14 +214,17 @@ nav {
   
 }
 
+
 /* Section 3: "Newsletter"*/
 
 .section3 img {
     width: 100%;
 }
+
 .desktop-img{
     display: none;
 }
+
 
 .section3 p:last-of-type {
     font-size: 18px;
@@ -285,6 +286,7 @@ form {
 
 
 }
+
 
 /* Section 4: "Partners"*/
 
