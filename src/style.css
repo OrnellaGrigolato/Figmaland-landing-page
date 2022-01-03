@@ -308,8 +308,8 @@ form {
     .section4 .flex{
         display: flex;
         gap: 7rem;
-
-        margin-top: 5rem;
+        width: 70%;
+        margin: 5rem auto 0;
         justify-content: center;
         align-items: center;
     }
@@ -320,6 +320,7 @@ form {
     .section4{
         margin-bottom: 15rem;
     }
+}
 
 /* Section 5: "Testimonials"*/
 
@@ -366,7 +367,7 @@ form {
 
 .pricing {
     background-color: #252B42;
-    padding: 3.5rem 0 3.5rem;
+    padding: 3.5rem 0;
     margin-top: 5rem;
     color: #fff;
 }
@@ -383,7 +384,7 @@ form {
 
 .price-card {
     background-color: #2091F9;
-    padding: 4rem 0;
+    padding: 4rem 4rem;
     margin-bottom: 3rem;
     border-radius: 10px;
 }
@@ -434,9 +435,30 @@ form {
 .flexcontainer {
     display: flex;
     flex-direction: column;
+    margin-top: 10rem
 }
 
+@media (min-width: 1100px){
+    .pricing .flexcontainer{
+        flex-direction: row;
+        gap: 5rem;
+        align-items: center;
+        width: 100%;
+        
+    }
+    .price-card{
+        height: 50rem;
+    }
+    .more-heigth-card{
+        height: 60rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
+
+
+}
 /* Section 7: "Contact"*/
 
 .contact {
