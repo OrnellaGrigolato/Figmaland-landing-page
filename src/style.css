@@ -291,8 +291,9 @@ form {
 /* Section 4: "Partners"*/
 
 .section4 img {
-    margin-bottom: 5rem;
-    width: 80%;
+    width: 60%;
+    display: block;
+    margin: 0 auto 5rem;
 }
 
 .section4 img:first-of-type {
@@ -303,6 +304,22 @@ form {
     margin-top: 0;
 }
 
+@media (min-width: 1100px){
+    .section4 .flex{
+        display: flex;
+        gap: 7rem;
+
+        margin-top: 5rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .section4 img{
+        width: 30%;
+    }
+
+    .section4{
+        margin-bottom: 15rem;
+    }
 
 /* Section 5: "Testimonials"*/
 
