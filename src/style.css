@@ -83,7 +83,6 @@ header {
     background-size: cover;
     -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 91%, 75% 100%, 25% 100%, 0 91%, 0 0);
     clip-path: polygon(50% 0%, 100% 0, 100% 91%, 75% 100%, 25% 100%, 0 91%, 0 0);
-    width: 100vw;
     height: 97vh;
     color: #fff;
 }
@@ -130,7 +129,7 @@ nav {
     margin: 0 auto;
 }
 
-.desktop-video{
+.desktop-video {
     display: none;
 }
 
@@ -144,8 +143,8 @@ nav {
 }
 
 .logosection img {
-   width: 46px;
-   height: 46px;
+    width: 46px;
+    height: 46px;
 }
 
 .logosection h3 {
@@ -166,7 +165,7 @@ nav {
 
 @media (min-width: 1100px) {
     /*Mobile View */
-    .logosection{
+    .logosection {
         display: flex;
         align-items: center;
         gap: 4rem;
@@ -175,15 +174,14 @@ nav {
     .logosection div {
         margin-top: 0;
     }
-    .desktop-video{
+    .desktop-video {
         display: block;
         width: 100%;
     }
-    .mobile-video{
+    .mobile-video {
         display: none;
     }
-    
-  }
+}
 
 
 /* Section 2: "Fastest way to organize"*/
@@ -198,20 +196,19 @@ nav {
 }
 
 @media (min-width: 1100px) {
-    .section2{
+    .section2 {
         display: flex;
         align-items: center;
         text-align: left;
         gap: 3rem;
         margin: 14rem auto;
     }
-    .section2 img{
+    .section2 img {
         margin-top: 0;
     }
-    .section2 div .btn{
+    .section2 div .btn {
         margin: 0;
     }
-  
 }
 
 
@@ -221,10 +218,9 @@ nav {
     width: 100%;
 }
 
-.desktop-img{
+.desktop-img {
     display: none;
 }
-
 
 .section3 p:last-of-type {
     font-size: 18px;
@@ -259,32 +255,29 @@ form {
     font-size: 1.8rem;
 }
 
-@media (min-width: 1100px){
-    .desktop-img{
+@media (min-width: 1100px) {
+    .desktop-img {
         display: block;
     }
-    .mobile-img{
+    .mobile-img {
         display: none;
     }
-    .section3{
+    .section3 {
         display: flex;
         align-items: center;
         gap: 6rem;
         text-align: left;
     }
-    .section3 form{
+    .section3 form {
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 1.5rem;
         margin-top: 3rem;
     }
-
-    .section3 form input:last-of-type{
-       margin-top: 0;
-    } 
-
-
+    .section3 form input:last-of-type {
+        margin-top: 0;
+    }
 }
 
 
@@ -304,8 +297,8 @@ form {
     margin-top: 0;
 }
 
-@media (min-width: 1100px){
-    .section4 .flex{
+@media (min-width: 1100px) {
+    .section4 .flex {
         display: flex;
         gap: 7rem;
         width: 70%;
@@ -313,14 +306,14 @@ form {
         justify-content: center;
         align-items: center;
     }
-    .section4 img{
+    .section4 img {
         width: 30%;
     }
-
-    .section4{
+    .section4 {
         margin-bottom: 15rem;
     }
 }
+
 
 /* Section 5: "Testimonials"*/
 
@@ -438,28 +431,30 @@ form {
     margin-top: 10rem
 }
 
-@media (min-width: 1100px){
-    .pricing .flexcontainer{
+@media (min-width: 1100px) {
+    .pricing .flexcontainer {
         flex-direction: row;
         gap: 5rem;
         align-items: center;
         width: 100%;
-        
     }
-    .price-card{
+    .price-card {
         height: 50rem;
     }
-    .more-heigth-card{
+    .more-heigth-card {
         height: 60rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-
-
-
 }
+
+
 /* Section 7: "Contact"*/
+
+.contact-desktop-section {
+    display: none;
+}
 
 .contact {
     text-align: center;
@@ -546,6 +541,51 @@ form {
     align-content: center;
 }
 
+@media (min-width: 1100px) {
+    .contact-desktop-section {
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+        justify-content: center;
+        margin-top: 6rem;
+    }
+    .formulario {
+        margin: 0;
+        width: 80rem;
+    }
+    .contact-mobile-view {
+        display: none;
+    }
+    .info-container {
+        display: flex;
+        gap: 1.5rem;
+    }
+    .info {
+        display: block;
+    }
+    .info:nth-child(2) {
+        width: 45%;
+    }
+    .info p,
+    .info a,
+    .info img {
+        display: inline-block;
+        margin: 0;
+    }
+    .info p {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .map {
+        width: 42rem;
+        padding: 2rem;
+    }
+    .redes {
+        margin-top: 5rem;
+    }
+}
+
 
 /* Section 8: "Footer"*/
 
@@ -576,4 +616,38 @@ footer .info p {
 
 footer .info:nth-last-child(2) {
     margin-bottom: 4rem;
+}
+
+@media (min-width: 1100px) {
+    .footer-container {
+        display: flex;
+        gap: 10rem;
+        text-align: left;
+        align-items: center;
+        padding: 4rem;
+    }
+    .names {
+        margin: 0;
+    }
+    .names h3 {
+        font-size: 1.5rem;
+    }
+    .names p {
+        font-size: 1.2rem;
+    }
+    .footer-info {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    .footer-info img,
+    .footer-info p {
+        display: inline;
+        text-align: left;
+        margin: 0;
+    }
+    .redes-footer {
+        justify-content: left;
+        gap: 4rem;
+    }
 }
