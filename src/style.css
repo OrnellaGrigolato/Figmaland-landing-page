@@ -310,7 +310,7 @@ form {
         width: 30%;
     }
     .section4 {
-        margin-bottom: 15rem;
+        margin: 15rem auto;
     }
 }
 
@@ -434,6 +434,7 @@ form {
 @media (min-width: 1100px) {
     .pricing .flexcontainer {
         flex-direction: row;
+        justify-content: center;
         gap: 5rem;
         align-items: center;
         width: 100%;
@@ -649,5 +650,8 @@ footer .info:nth-last-child(2) {
     .redes-footer {
         justify-content: left;
         gap: 4rem;
+    }
+    .footer-container div:nth-child(4) {
+        margin-left: 4rem;
     }
 }
