@@ -1,8 +1,7 @@
-console.log("im work")
 const menu = document.querySelector('.menu-btn');
 const topLeftSlider = document.querySelector('.top-left-slide');
 const bottomLeftSlider = document.querySelector('.bottom-left-slide');
-
+const clipPath = document.querySelector('.clip-path');
 const topRightSlider = document.querySelector('.top-right-slide');
 const middleRightSlider = document.querySelector('.middle-right-slide');
 const bottomRightSlider = document.querySelector('.bottom-right-slide');
@@ -14,12 +13,15 @@ const eksThree = document.querySelector('.eks-three');
 var isOpen = false;
 
 menu.addEventListener('click', () => {
+
+    clipPath.classList.toggle('clip-path');
     topLeftSlider.classList.toggle('top-left-slide-show');
     bottomLeftSlider.classList.toggle('bottom-left-slide-show');
     topRightSlider.classList.toggle('top-right-slide-show');
     middleRightSlider.classList.toggle('middle-right-slide-show');
     bottomRightSlider.classList.toggle('bottom-right-slide-show');
     eksTwo.classList.toggle('eks-two-fade');
+
 
     const tl = gsap.timeline();
     const tlEksThree = gsap.timeline();
