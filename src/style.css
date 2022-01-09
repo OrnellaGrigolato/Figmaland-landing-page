@@ -1,5 +1,9 @@
 /* Generals */
 
+:root {
+    --main-color: #2091F9;
+}
+
 body {
     font-family: 'Rubik', sans-serif;
 }
@@ -89,6 +93,10 @@ header {
 .clip-path {
     -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 91%, 75% 100%, 25% 100%, 0 91%, 0 0);
     clip-path: polygon(50% 0%, 100% 0, 100% 91%, 75% 100%, 25% 100%, 0 91%, 0 0);
+}
+
+.overflow {
+    overflow: hidden;
 }
 
 .link-btn {
@@ -678,7 +686,7 @@ footer .info:nth-last-child(2) {
     top: 0;
     min-height: 100vh;
     width: 100%;
-    background-color: #2091F9;
+    background-color: var(--main-color);
     clip-path: polygon(0 0, 100% 0, 100% 0%, 0 0%);
     transition: 0.2s ease-in;
 }
@@ -701,7 +709,7 @@ footer .info:nth-last-child(2) {
     top: 0;
     height: 20vh;
     width: 100%;
-    background-color: #2091F9;
+    background-color: var(--main-color);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     transition: 0.2s ease-in;
 }
@@ -723,7 +731,7 @@ footer .info:nth-last-child(2) {
     top: 0;
     height: 20vh;
     width: 100%;
-    background-color: #2091F9;
+    background-color: var(--main-color);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     transition: 0.2s ease-in;
 }
@@ -744,7 +752,7 @@ footer .info:nth-last-child(2) {
     top: 0;
     height: 20vh;
     width: 100%;
-    background-color: #2091F9;
+    background-color: var(--main-color);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     transition: 0.2s ease-in;
 }
@@ -764,7 +772,7 @@ footer .info:nth-last-child(2) {
     top: 0;
     height: 20vh;
     width: 100%;
-    background-color: #2091F9;
+    background-color: var(--main-color)9;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     transition: 0.2s ease-in;
 }
@@ -786,7 +794,7 @@ footer .info:nth-last-child(2) {
     top: 0;
     height: 20vh;
     width: 100%;
-    background-color: #2091F9;
+    background-color: var(--main-color);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     transition: 0.2s ease-in;
 }
@@ -796,7 +804,7 @@ footer .info:nth-last-child(2) {
     top: 0;
     min-height: 100vh;
     width: 100%;
-    background-color: #2091F9;
+    background-color: var(--main-color);
     clip-path: polygon(100% 40%, 100% 40%, 100% 60%, 100% 60%);
     transition: 0.2s ease-in;
 }
@@ -810,7 +818,7 @@ footer .info:nth-last-child(2) {
     top: 0;
     min-height: 100vh;
     width: 100%;
-    background-color: #2091F9;
+    background-color: var(--main-color);
     clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
     transition: 0.2s ease-in;
 }
@@ -824,7 +832,7 @@ footer .info:nth-last-child(2) {
     top: 0;
     min-height: 100vh;
     width: 100%;
-    background-color: #2091F9;
+    background-color: var(--main-color);
     clip-path: polygon(0 20%, 0% 20%, 0% 40%, 0 40%);
     transition: 0.2s ease-in;
 }
@@ -838,7 +846,7 @@ footer .info:nth-last-child(2) {
     top: 0;
     min-height: 100vh;
     width: 100%;
-    background-color: #2091F9;
+    background-color: var(--main-color);
     clip-path: polygon(0 60%, 0% 60%, 0% 80%, 0 80%);
     transition: 0.2s ease-in;
 }

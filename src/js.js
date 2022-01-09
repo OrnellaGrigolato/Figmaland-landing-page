@@ -9,23 +9,21 @@ const bottomRightSlider = document.querySelector('.bottom-right-slide');
 const eksOne = document.querySelector('.eks-one');
 const eksTwo = document.querySelector('.eks-two');
 const eksThree = document.querySelector('.eks-three');
+const links = document.querySelectorAll(".nav-links")
 
-var isOpen = false;
+let isOpen = false;
 
-menu.addEventListener('click', () => {
-
+const openAndClose = () => {
     clipPath.classList.toggle('clip-path');
+    document.body.classList.toggle("overflow");
     topLeftSlider.classList.toggle('top-left-slide-show');
     bottomLeftSlider.classList.toggle('bottom-left-slide-show');
     topRightSlider.classList.toggle('top-right-slide-show');
     middleRightSlider.classList.toggle('middle-right-slide-show');
     bottomRightSlider.classList.toggle('bottom-right-slide-show');
     eksTwo.classList.toggle('eks-two-fade');
-
-
     const tl = gsap.timeline();
     const tlEksThree = gsap.timeline();
-
     if (!isOpen) {
         tl.to('.eks-one', {
                 y: isOpen ? 0 : 9,
@@ -55,23 +53,17 @@ menu.addEventListener('click', () => {
                 y: isOpen ? 0 : -9
             })
     }
-
     isOpen = !isOpen
-})
+}
 
-gsap.from('.simple', {
-    x: -100,
-    duration: 1
-})
-gsap.from('.menu', {
-    x: -100,
-    duration: 1.2,
-    delay: 0.3,
-    opacity: 0
-})
-gsap.from('.navi', {
-    y: -500,
-    duration: 2.,
-    delay: 0.4,
-    opacity: 0
+
+for (let i = 0; i < links.length; i++) {
+    links[i].addEventListener('click', () => {
+        openAndClose()
+    });
+}
+
+
+menu.addEventListener('click', () => {
+    openAndClose()
 })
