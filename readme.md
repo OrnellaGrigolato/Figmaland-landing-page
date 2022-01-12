@@ -1,7 +1,7 @@
 
 # Figmaland💙💫
 
-[Read this in english](https://github.com/OrnellaGrigolato/Figmaland-landing-page/blob/master/README.en.md)
+[Read this in english](https://github.com/OrnellaGrigolato/Figmaland-landing-page/blob/master/README.EN.md)
 
 Figmaland es una landing page corporativa enfocada en promocionar una empresa y mostrar las virtudes de su producto para generar mas ventas 💸.
 
