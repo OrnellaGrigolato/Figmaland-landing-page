@@ -114,10 +114,13 @@ header {
 header h1,
 header p {
     font-weight: 300;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
     font-size: 4.8rem;
-    margin-top: 8rem;
+}
+
+header h1 {
+    padding-top: 10rem;
 }
 
 header p {
@@ -130,6 +133,40 @@ header p {
 nav {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.6s;
+    z-index: 10;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav div,
+nav img {
+    position: relative;
+}
+
+nav.sticky {
+    background-color: #252b42;
+}
+
+.logo {
+    width: 90%;
+}
+
+.logo-when-menu-opens {
+    visibility: hidden;
 }
 
 
@@ -669,17 +706,8 @@ footer .info:nth-last-child(2) {
 }
 
 .menu-btn {
-    position: absolute;
-    top: 25px;
-    right: 30px;
-    height: 50px;
+    height: 4rem;
 }
-
-
-/* .eks-two {
-    opacity: 1;
-    transition: 1s ease-in;
-} */
 
 .top-right-slide {
     position: absolute;
@@ -857,7 +885,8 @@ footer .info:nth-last-child(2) {
 
 .nav-links {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 100;
     font-size: 3.5rem;
     position: absolute;
     z-index: 4;

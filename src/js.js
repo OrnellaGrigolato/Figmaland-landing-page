@@ -5,15 +5,18 @@ const clipPath = document.querySelector('.clip-path');
 const topRightSlider = document.querySelector('.top-right-slide');
 const middleRightSlider = document.querySelector('.middle-right-slide');
 const bottomRightSlider = document.querySelector('.bottom-right-slide');
-
 const eksOne = document.querySelector('.eks-one');
 const eksTwo = document.querySelector('.eks-two');
 const eksThree = document.querySelector('.eks-three');
 const links = document.querySelectorAll(".nav-links")
+const nav = document.querySelector("nav");
+const logo = document.querySelector(".logo")
 
 let isOpen = false;
 
 const openAndClose = () => {
+    nav.classList.toggle("width");
+    logo.classList.toggle("logo-when-menu-opens")
     clipPath.classList.toggle('clip-path');
     document.body.classList.toggle("overflow");
     topLeftSlider.classList.toggle('top-left-slide-show');
@@ -56,14 +59,16 @@ const openAndClose = () => {
     isOpen = !isOpen
 }
 
-
 for (let i = 0; i < links.length; i++) {
     links[i].addEventListener('click', () => {
         openAndClose()
     });
 }
 
-
 menu.addEventListener('click', () => {
     openAndClose()
+})
+
+window.addEventListener("scroll", () => {
+    nav.classList.toggle("sticky", window.scrollY > 100)
 })
