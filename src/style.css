@@ -31,9 +31,10 @@ h5 {
 .features,
 .section2,
 .section3,
-.section4 {
+.section4,
+.testimonials {
     text-align: center;
-    margin-top: 5.5rem;
+    margin-top: 10rem;
 }
 
 h2,
@@ -236,12 +237,16 @@ nav.sticky {
 /* Section 2: "Fastest way to organize"*/
 
 .section2 img {
-    width: 100%;
+    width: 70%;
     margin-top: 4rem;
 }
 
 .section2 h2 {
     color: #252B42;
+}
+
+.section2 .btn {
+    margin-top: 2rem;
 }
 
 @media (min-width: 1100px) {
@@ -264,7 +269,11 @@ nav.sticky {
 /* Section 3: "Newsletter"*/
 
 .section3 img {
-    width: 100%;
+    width: 50%;
+}
+
+.section3 h5:last-of-type {
+    margin-top: 3rem;
 }
 
 .desktop-img {
@@ -333,13 +342,13 @@ form {
 /* Section 4: "Partners"*/
 
 .section4 img {
-    width: 60%;
+    width: 40%;
     display: block;
     margin: 0 auto 5rem;
 }
 
 .section4 img:first-of-type {
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .section4 .btn {
@@ -365,10 +374,6 @@ form {
 
 
 /* Section 5: "Testimonials"*/
-
-.testimonials {
-    margin-top: 5rem;
-}
 
 .testimonials p {
     font-size: 14px;
@@ -402,6 +407,10 @@ form {
 .person h6,
 .person p {
     margin: 0;
+}
+
+.testimonials .btn {
+    margin-top: 2rem;
 }
 
 
@@ -512,7 +521,7 @@ form {
     margin-top: 8rem;
 }
 
-.redes {
+.networks {
     display: flex;
     justify-content: space-evenly;
 }
@@ -543,7 +552,7 @@ form {
     margin-bottom: 2rem;
 }
 
-.formulario {
+.contact-form {
     border-radius: 2rem;
     box-shadow: 10px 11px 12px 5px rgba(232, 232, 232, 1);
     -webkit-box-shadow: 10px 11px 12px 5px rgba(232, 232, 232, 1);
@@ -558,12 +567,12 @@ form {
     flex-direction: column;
 }
 
-.formulario h5 {
+.contact-form h5 {
     margin-bottom: 3rem;
 }
 
-.formulario input,
-.formulario textarea {
+.contact-form input,
+.contact-form textarea {
     display: block;
     width: 80%;
     background-color: #F5F5F5;
@@ -573,12 +582,12 @@ form {
     border: #E8E8E8;
 }
 
-.formulario input {
+.contact-form input {
     border-radius: 4rem;
     height: 1rem;
 }
 
-.formulario input:last-child {
+.contact-form input:last-child {
     border-radius: 35px;
     width: 50%;
     height: 52px;
@@ -599,7 +608,7 @@ form {
         justify-content: center;
         margin-top: 6rem;
     }
-    .formulario {
+    .contact-form {
         margin: 0;
         width: 80rem;
     }
@@ -631,7 +640,7 @@ form {
         width: 42rem;
         padding: 2rem;
     }
-    .redes {
+    .networks {
         margin-top: 5rem;
     }
 }
@@ -696,7 +705,7 @@ footer .info:nth-last-child(2) {
         text-align: left;
         margin: 0;
     }
-    .redes-footer {
+    .networks-footer {
         justify-content: left;
         gap: 4rem;
     }
@@ -704,6 +713,9 @@ footer .info:nth-last-child(2) {
         margin-left: 4rem;
     }
 }
+
+
+/* Menu Functionality */
 
 .menu-btn {
     height: 4rem;
