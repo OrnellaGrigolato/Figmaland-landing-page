@@ -149,8 +149,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
     margin: 0 auto;
+    width: 90%;
 }
 
 nav div,
@@ -708,6 +708,7 @@ footer .info:nth-last-child(2) {
     .networks-footer {
         justify-content: left;
         gap: 4rem;
+        align-items: center;
     }
     .footer-container div:nth-child(4) {
         margin-left: 4rem;
@@ -951,4 +952,50 @@ footer .info:nth-last-child(2) {
 .nav-links:hover {
     letter-spacing: 5px;
     transform: translateY(0);
+}
+
+.nav-networks,
+.desktop-navigation {
+    display: none;
+}
+
+@media (min-width: 1100px) {
+    .menu-btn {
+        display: none;
+    }
+    .nav-networks,
+    .desktop-navigation {
+        display: flex;
+        gap: 3rem;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        white-space: nowrap;
+        margin: 0;
+    }
+    .desktop-navigation a {
+        font-family: Graphik;
+        font-size: 1.2rem;
+        letter-spacing: 0.2px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    .nav-networks img {
+        width: 3rem;
+    }
+    .nav-container {
+        justify-content: center;
+    }
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        width: 90%;
+        text-align: center;
+        padding: 0 5%;
+    }
+    .desktop-navigation a:hover {
+        color: var(--main-color);
+        transition: 0.2s ease-in;
+    }
 }

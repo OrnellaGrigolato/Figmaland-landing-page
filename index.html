@@ -15,6 +15,13 @@
 
 <body>
     <nav class="width">
+        <div class="desktop-navigation">
+            <a href="#features">Features</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#partners">Partners</a>
+            <a href="#pricing">Pricing</a>
+        </div>
         <div class="top-right-slide">
             <div class="inner-container-top">
                 <a href="#features" class="nav-links">Features</a>
@@ -46,6 +53,11 @@
                 <img class="logo" src="./img/dark-logo.svg" alt="FigmaLand logo">
             </a>
             <img class="menu-btn" src="./img/menu-icon.svg" alt="menu">
+        </div>
+        <div class="networks nav-networks">
+            <a href="https://twitter.com/home"><img src="./img/twitter white logo.svg" alt=""></a>
+            <a href="https://www.facebook.com/"><img src="./img/Facebook white logo.svg" alt=""></a>
+            <a href="https://www.linkedin.com/feed/"><img src="./img/linkedinwhitelogo.svg" alt=""></a>
         </div>
 
 
@@ -124,23 +136,23 @@
             <p>Available exclusivery on Figmaland</p>
             <form action="">
                 <input type="mail" placeholder="Your Email" />
-                <input type="submit" value="Subscribe" />
+                <input type="submit" value="Subscribe" id="partners" />
             </form>
         </div>
     </section>
 
-    <section class="container section4" id="partners">
+    <section class="container section4">
         <h2>Partners </h2>
         <p>Most calendars are designed for teams. Slate is designed for freelancers </p>
         <div class='flex'>
             <img src="./img/google.svg" alt=""><img src="./img/amazon.png" alt=""><img src="./img/Rectangle.png" alt="">
         </div>
         <div class="btn">
-            <a class="link-btn" href="#price">Try For Free</a>
+            <a class="link-btn" href="#price" id="testimonials">Try For Free</a>
         </div>
     </section>
 
-    <section class="container testimonials" id="testimonials">
+    <section class="container testimonials">
         <h2>Testimonials</h2>
         <img src="./img/ibm.svg" alt="">
         <p>Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
@@ -154,11 +166,11 @@
             </div>
         </div>
         <div class="btn">
-            <a class="link-btn" href="#testimonials">More Testimonials</a>
+            <a class="link-btn" href="#testimonials" id="pricing">More Testimonials</a>
         </div>
     </section>
 
-    <section class=" pricing" id="pricing">
+    <section class=" pricing">
         <div class="container">
             <h2>Pricing</h2>
             <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
@@ -208,13 +220,13 @@
                     <p>Pricing Feature</p>
                     <p>Pricing Feature</p>
                     <div class="btn">
-                        <a class="link-btn" href="#price">Order Now</a>
+                        <a class="link-btn" href="#price" id="contact">Order Now</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="container contact" id="contact">
+    <section class="container contact">
         <h2>Contact Us</h2>
         <p>Most calendars are designed for teams. </p>
         <!-- Contact section for desktop view -->
