@@ -21,7 +21,7 @@ Mi objetivo era simular un entorno de trabajo profesional 👩🏻‍💻.
 
 - Separé cada requerimiento en sub-tareas
 
-- Escribí código de calidad y comenté secciones que lo requerían
+- Escribí código mantenible y comenté secciones que lo requerían
 
 - Utilicé CSS puro y JS vanilla
 
@@ -45,8 +45,6 @@ Mi objetivo era simular un entorno de trabajo profesional 👩🏻‍💻.
 
 ## Dependencias
 
-- Uso de [Gsap](https://greensock.com/) para la animación del menú
-
 - Uso de [Normalize](https://necolas.github.io/normalize.css/) para normalizar los estilos entre los navegadores
 
 
@@ -64,7 +62,6 @@ Mi objetivo era simular un entorno de trabajo profesional 👩🏻‍💻.
 
 No usé ningún framework ni librería basado en componentes ya que para una landing page simple no lo considero necesario. Eso únicamente sobrecargaría el proyecto, ralentizándolo. Además, tampoco creí necesario convertir este proyecto en una SPA debido a que la navegación, en este caso, es a través de un único archivo.
 
-<br />
 <br />
 
 ### Autor 🙋🏻‍♀️

@@ -22,7 +22,7 @@ My goal was to simulate a professional work environment.
 
 - I separated each requirement into sub-tasks
 
-- Wrote quality code and commented out sections that required it
+- Wrote maintainable code and commented out sections that required it
 
 - Used pure CSS and vanilla JS
 
@@ -46,8 +46,6 @@ My goal was to simulate a professional work environment.
 
 ## Dependencies
 
-- Using [Gsap](https://greensock.com/) for menu animation
-
 - Using [Normalize](https://necolas.github.io/normalize.css/) for cross-browser style normalization
 
 <br />
@@ -64,7 +62,6 @@ My goal was to simulate a professional work environment.
 
 I didn't use any component-based framework or library because for a simple landing page I don't consider it necessary. That would only overload the project, slowing it down. Also, I didn't think it was necessary to convert this project into a SPA because the navigation, in this case, is through a single file.
 
-<br />
 <br />
 
 ### Author 🙋🏻‍♀️
