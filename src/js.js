@@ -6,7 +6,7 @@ const middleRightSlider = document.querySelector('.middle-right-slide');
 const bottomRightSlider = document.querySelector('.bottom-right-slide');
 
 // Extras
-const menu = document.querySelector('.menu-btn');
+const menuBtn = document.querySelector('.menu-btn');
 const links = document.querySelectorAll(".nav-links")
 const nav = document.querySelector("nav");
 const logo = document.querySelector(".logo")
@@ -33,7 +33,7 @@ const openAndClose = () => {
 }
 
 // Open and close menu when the button is clicked
-menu.addEventListener('click', () => {
+menuBtn.addEventListener('click', () => {
     openAndClose()
 })
 
