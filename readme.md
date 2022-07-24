@@ -9,7 +9,7 @@ Figmaland es una landing page corporativa enfocada en promocionar una empresa y 
 
 ## Aplicación en funcionamiento
 
-![Figmaland en funcionamiento](https://github.com/OrnellaGrigolato/Figmaland-landing-page/blob/master/Figmaland_Running.gif)
+![Figmaland en funcionamiento](https://github.com/OrnellaGrigolato/Figmaland-landing-page/blob/master/FigmaLand_Running.gif)
 
 <br/>
 

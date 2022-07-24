@@ -9,7 +9,7 @@ Figmaland is a business landing page focused on promoting a company and showing 
 
 ## Aplication Running
 
-![Figmaland running](https://github.com/OrnellaGrigolato/Figmaland-landing-page/blob/master/Figmaland_Running.gif)
+![Figmaland running](https://github.com/OrnellaGrigolato/Figmaland-landing-page/blob/master/FigmaLand_Running.gif)
 
 <br/>
 
