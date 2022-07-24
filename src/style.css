@@ -76,6 +76,7 @@ header div.btn,
     height: 52px;
     background: #2091F9;
     margin: 60px auto 0;
+    border: none;
 }
 
 
@@ -218,14 +219,14 @@ nav.sticky {
         display: flex;
         align-items: center;
         gap: 4rem;
-        margin: 10rem auto;
+        margin:5rem auto;
     }
     .logosection div {
         margin-top: 0;
     }
     .desktop-video {
         display: block;
-        width: 100%;
+        width: 60%;
     }
     .mobile-video {
         display: none;
@@ -234,6 +235,13 @@ nav.sticky {
 
 
 /* Section 2: "Fastest way to organize"*/
+.section2{
+    width: 80%;
+}
+
+.section2 div{
+    width: 100%;
+}
 
 .section2 img {
     width: 70%;
@@ -254,7 +262,7 @@ nav.sticky {
         align-items: center;
         text-align: left;
         gap: 3rem;
-        margin: 14rem auto;
+        margin: 20rem auto 25rem;
     }
     .section2 img {
         margin-top: 0;
@@ -313,6 +321,9 @@ form {
 }
 
 @media (min-width: 1100px) {
+    .section3{
+        width: 80%;
+    }
     .desktop-img {
         display: block;
     }
@@ -641,6 +652,11 @@ form {
     }
     .networks {
         margin-top: 5rem;
+    }
+    .info-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
