@@ -42,6 +42,8 @@ My goal was to simulate a professional work environment.
 
 - Contact section and company information
 
+- Form validation
+
 <br/>
 
 ## Dependencies

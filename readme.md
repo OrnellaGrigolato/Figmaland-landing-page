@@ -41,6 +41,8 @@ Mi objetivo era simular un entorno de trabajo profesional 👩🏻‍💻.
 
 - Sección de contacto e información de la empresa
 
+- Validación de formularios
+
 <br/>
 
 ## Dependencias
