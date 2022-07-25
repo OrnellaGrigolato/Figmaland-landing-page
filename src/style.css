@@ -76,6 +76,7 @@ header div.btn,
     height: 52px;
     background: #2091F9;
     margin: 60px auto 0;
+    cursor: pointer;
     border: none;
 }
 
@@ -345,6 +346,7 @@ form {
     }
     .section3 form input:last-of-type {
         margin-top: 0;
+        cursor: pointer;
     }
 }
 

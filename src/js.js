@@ -48,3 +48,13 @@ for (let i = 0; i < links.length; i++) {
 window.addEventListener("scroll", () => {
     nav.classList.toggle("sticky", window.scrollY > 100)
 })
+
+
+//Forms handling
+let emailInput = document.forms["emailForm"]["email"]
+
+function confirmInput() {
+    emailInput.value = ""
+    alert("We have received your email. Thank you!");
+   
+  }
