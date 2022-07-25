@@ -67,7 +67,8 @@ header div.btn,
 .section2 .btn,
 .section4 .btn,
 .testimonials .btn,
-.price-card .btn {
+.price-card .btn,
+.btn {
     justify-content: center;
     align-items: center;
     border-radius: 35px;

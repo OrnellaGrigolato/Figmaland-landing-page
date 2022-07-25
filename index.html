@@ -135,7 +135,7 @@
             <img class='mobile-img' src="./img/undraw_newsletter_vovu.svg" alt="">
             <h5>Subscribe to our Newsletter</h5>
             <p>Available exclusively on Figmaland</p>
-            <form action="" name="emailForm" autocomplete="on" onsubmit="confirmInput();return false">
+            <form action="" name="emailForm" autocomplete="on" onsubmit="confirmInput('email');return false">
                 <input type="email" placeholder="Your Email" name="email" required/>
                 <input type="submit" value="Subscribe" id="partners" name="emailFormSubmitBtn"/>
             </form>
@@ -234,11 +234,11 @@
         <div class="contact-desktop-section">
             <div class="contact-form">
                 <h5>Contact Us</h5>
-                <form action="">
-                    <input type="name" placeholder="Your Name" />
-                    <input type="gmail" placeholder="Your Mail" />
-                    <textarea placeholder="Your message" id="" cols="10" rows="10"></textarea>
-                    <input type="button" value="Send">
+                <form action=""  name="contactForm" autocomplete="on" onsubmit="confirmInput('contact');return false">
+                    <input type="text" placeholder="Your Name" name="fname" required/>
+                    <input type="email" placeholder="Your Email" required/>
+                    <textarea placeholder="Your Message" cols="10" rows="10" minlength="20" required></textarea>
+                    <input class="btn" type="submit" value="Send">
                 </form>
             </div>
             <div>
@@ -285,9 +285,9 @@
                 <h5>Contact Us</h5>
                 <form action="">
                     <input type="name" placeholder="Your Name" />
-                    <input type="gmail" placeholder="Your Mail" />
+                    <input type="gmail" placeholder="Your Email" />
                     <textarea placeholder="Your message" id="" cols="10" rows="10"></textarea>
-                    <input type="button" value="Send">
+                    <input type="submit" value="Send">
                 </form>
             </div>
         </div>

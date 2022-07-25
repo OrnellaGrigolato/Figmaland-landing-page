@@ -52,9 +52,16 @@ window.addEventListener("scroll", () => {
 
 //Forms handling
 let emailInput = document.forms["emailForm"]["email"]
-
-function confirmInput() {
-    emailInput.value = ""
-    alert("We have received your email. Thank you!");
-   
-  }
+let contactForm = document.forms["contactForm"]
+let fname = document.forms["contactForm"]["fname"]
+function confirmInput(form) {
+    if(form==="email"){
+        alert("We have received your email. Thank you!");
+        emailInput.value = ""
+    } else{
+        alert("Thank you " + fname.value + "! We have received your message. We will contact you soon");
+        for(let i =0; i<=2 ;i++){
+            contactForm[i].value = ""
+        }
+    }
+}
