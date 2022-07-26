@@ -52,8 +52,18 @@ window.addEventListener("scroll", () => {
 
 //Forms handling
 let emailInput = document.forms["emailForm"]["email"]
-let contactForm = document.forms["contactForm"]
-let fname = document.forms["contactForm"]["fname"]
+
+if (window.matchMedia("(min-width: 1100px)").matches) {
+    /* desktop */
+    var contactForm = document.forms["contactForm"]
+    var fname = document.forms["contactForm"]["fname"]
+    console.log("desktop")
+  } else {
+    /* mobile */
+    var contactForm = document.forms["contactMobileForm"]
+    var fname = document.forms["contactMobileForm"]["fname"]
+  }
+
 function confirmInput(form) {
     if(form==="email"){
         alert("We have received your email. Thank you!");

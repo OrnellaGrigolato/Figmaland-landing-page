@@ -283,11 +283,11 @@
             </div>
             <div class="contact-form">
                 <h5>Contact Us</h5>
-                <form action="">
-                    <input type="name" placeholder="Your Name" />
-                    <input type="gmail" placeholder="Your Email" />
-                    <textarea placeholder="Your message" id="" cols="10" rows="10"></textarea>
-                    <input type="submit" value="Send">
+                <form action=""  name="contactMobileForm" autocomplete="on" onsubmit="confirmInput('contact');return false">
+                    <input type="text" placeholder="Your Name" name="fname" required/>
+                    <input type="email" placeholder="Your Email" required/>
+                    <textarea placeholder="Your Message" cols="10" rows="10" minlength="20" required></textarea>
+                    <input class="btn" type="submit" value="Send">
                 </form>
             </div>
         </div>
